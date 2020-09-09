@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "newsfromchetan-cvfd",
+  "private_key_id": "5e449b0e94b962d3c29a49fbd8552c71b0177938",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCm45gVpEdESogj\nt1YUGtJYYshYzcBIAT8STjRMgqybovFyl7oeU4OpDC5cpxIs5jNhbtHw5NbRi0LA\nu8HV4TlXcJ5/aXdnlmY44ir7bR05bVCwZKdlJKNrkdvnKVtLs5SwXHhpWZCGN6ww\nS5BEq+oNkJL+Q4VLgpqa+HaeOaQt44KkGjuxJwNsDV46ZWnnsllPuR4HjXo5GreZ\n0TIEPWeI/8xPnABuGIa1EeoxLWF5iqWK1/o4bocMoCB4LXl9T2eMo6j35k09k5RW\nChxKHV8hPh329I3ELeyOSX9ujZ6hW/J95m1AYfTdPGTx0nFEbI8Z7khL4A4KmTH7\n8Uib6OPRAgMBAAECggEAEjfbsRcdIYcaW/3GU40HA9eKw+j4EdQzAKpRWr3UHmxX\n+7i0/F0FDSXzhLFHUmfx2XPJzsiIa9kOOTB17UV4J0O3xbRrcL8yGwkThJ1peIym\np47hWDD69wH19cLlwLqSo3sAuQ1qMcCvlxkUn2597yumZEPWMANKodq4RjcIJWsY\nrLqpftc3Km0ktbEBoyjAk6ez/SN1gSmKy8Egi+kvYANQaScNOeNFK9qSH49cGazO\nTzgmMggMGhsPAYv3u450c8RoTb4MbTu10dtknNXPqiJl2QcqHdrwBUI/8PKkpYLV\nfWdZxOcS5euO1N9YplCYUzU/aNCF1s6sVG+i/LYRUQKBgQDcwoUJyuQc5M/Zz5aN\nmGoW5IfX7d5HogzgZtOwi3zGZWJnOwkRe6b+md0D2yjOZUltFr4fxAx7F3SDsuZN\nhy96FVEdeVDSneHqbPE/3U1gwMxHxlvi3GSFqw+9kY9zibnncosCcIkWgnWdKkkO\nKevdffwEV3FQfWFCdvFt/wikmQKBgQDBh5zKbtrn+PA9OVt1NEdv238B0HTbfXVq\ncbq7pPjMZMKDbzalBY08Bv+eqsU0x+pN6dZVgXGrjZKy8X0fVEWWvPzlW6EX7KYz\nzDHdjZDGMMeSvd3t4aOaCEKdhw6gBoCqpUYsg4KIEHT4u6Q0pH/v9YInQTLFjiFq\nEC2mYAsD+QKBgEgh7yKB/wNJ6Hh9Ee52TMPqLFDr0mOJmbeBIc5f5YdV/U9JxO7H\nfotWbxchdzXpdpKEid8LSiC2S0X1ILdYYrT7XiPJThVjrTvSGQoLH4trs9QIBmIc\nLWRXvq7sbvkLmYj8rls/tit6uT9/X5uXKxCWZ9BrWgU40pzLDJwqZwKRAoGBALWC\n1sh6fnARaGlT0Xa06Md9y7pM5D00hxqlvmjeCsfRPSp+9XaDJXsGaVtMeZfOZPBc\ngD1EIfOv3cZdfmgS5w3BBUSs0wOYXi24t5A/hWiNObFkyLCi74m5c5lBobLvRmBG\nkPGRCq1JGhxsCU+idaf+0Oq2WMM3UhmjQN2JuOspAoGBAJXOAQw3GcISMVwFAQur\nSq7TWYBndjxyDhLyxzlfOgG/J/QPLMSCdm/LzJem1TUGs2pJltSluOWs5UbeKyqf\npsdcl0iXgbWUEm1H19CBCSkj9kNEBLUsFyad2VsUeOpnVhvuxeCGRFO2lNjmLICO\nwt7LufkTvRBu6aNCVFr/rdij\n-----END PRIVATE KEY-----\n",
+  "client_email": "newsbot-chetan@newsfromchetan-cvfd.iam.gserviceaccount.com",
+  "client_id": "100929870220503689264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/newsbot-chetan%40newsfromchetan-cvfd.iam.gserviceaccount.com"
+}
