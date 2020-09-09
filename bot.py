@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from flask import Flask, request
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Dispatcher
 from telegram import Update, Bot, ReplyKeyboardMarkup
@@ -60,22 +61,11 @@ def news(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text="Choose a Category", reply_markup=ReplyKeyboardMarkup(keyboard=topics_keyboard,one_time_keyboard=True))
 
 
-
-# def main():
-
-#     # updater = Updater(TOKEN)
-#     # dp = updater.dispatcher
-
-   
-    
-#     # updater.start_polling()
-#     # logger.info("Start polling ... ")
-#     # updater.idle()
 bot = Bot(TOKEN)
 dp = Dispatcher(bot,None)
 try:
 # as we are using ngrok on port 8443 we have to run our flash server at the same in order to deploy it online
-    bot.set_webhook("https://c06868a15f35.ngrok.io/" + TOKEN)
+    bot.set_webhook("https://dry-harbor-99846.herokuapp.com/" + TOKEN)
 except Exception as e:
     print(e)
 
@@ -88,5 +78,6 @@ dp.add_handler(MessageHandler(Filters.sticker, echo_sticker))
 dp.add_error_handler(error)
 
 if __name__ == "__main__":
-    
-    app.run(port=8443)
+    # app.run(port=8443)
+
+    app.run(host="0.0.0.0", port=int(os.environ.get('PORT',5000)))
