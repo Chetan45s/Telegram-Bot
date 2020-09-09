@@ -11,7 +11,7 @@ from utils import get_reply, fetch_news, topics_keyboard
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = "1391633156:AAFgrUTDuvOm7cEt1Gr3tUhbfdqdwyKGPh4"
+TOKEN = ${{ secrets.TOKEN }}
 
 # creating a app from flask
 app = Flask(__name__)
